@@ -1,0 +1,16 @@
+Domain (Dominio) -> Qual a área de conhecimento daquele módulo/arquivo
+
+DDD: Domain Driven Design (Metodologia) 
+-> Conceitos, principios, patterns, que devemos indentificar quais que fazem
+sentido no nosso projeto e aplicar.
+
+TDD: Teste Driven Develoipment (Metodologia)
+
+
+Dóminio -> Ela tem responsabilidade apenas sobre a regra de negocio,
+como as coisas devem funcionar.
+
+Infra -> São as ferramentas que a gente escolhe para se 
+relacionar com a nossa camada de dominio. Na camada de Dóminio
+a gente coloca as camadas mais tecnicas da nossa aplicação.
+

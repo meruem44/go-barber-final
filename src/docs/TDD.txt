@@ -1,0 +1,33 @@
+## Teste automatizados
+
+Que a nossa aplicação continue funcionando independente do
+número de novas funcionalidades e do número de novos devs.
+
+## 1. Teste unitários
+
+-> Testam funcionalidades especificas da nossa aplicação
+(precisam ser puras)
+
+ex: vou testar uma função, funcionalidades puras
+
+puras -> Jamais faz uma chamada a uma API, não tem
+nenhum efeito colateral, ela precisa ser uma função que não depende
+de serviços externos para funcionar, dados os mesmo parêmetros, ela
+possui os mesmos resultados.
+
+## 2. Teste de integração
+
+-> Testam uma funcionalidade completa, passando por várias camadas da nossa
+aplicação
+
+ex: Testar cadastro de usuários, testar todo o fluxo de criação.
+
+## 3. Teste E2E
+
+-> Testes que simulam a ação do usuário da nossa aplicação
+
+# TDD (Test Driven Development)
+
+-> Criamos nossos testes antes de implementar nossas funcionalidades,
+quando criamos os testes, sabemos ao certo o que esperar daquela
+funcionalidade, e quando formos aplicar, temos um caminho no desenvolvimento.
